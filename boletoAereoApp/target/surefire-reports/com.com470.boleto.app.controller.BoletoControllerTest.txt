@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.com470.boleto.app.controller.BoletoControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.116 sec <<< FAILURE! - in com.com470.boleto.app.controller.BoletoControllerTest
+testGetBoletoById(com.com470.boleto.app.controller.BoletoControllerTest)  Time elapsed: 0.126 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <com.com470.boleto.app.entities.Boleto@4e2cdc51>
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.com470.boleto.app.controller.BoletoControllerTest.testGetBoletoById(BoletoControllerTest.java:74)
+
+testGetAllBoletos(com.com470.boleto.app.controller.BoletoControllerTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <com.com470.boleto.app.entities.Boleto@4a9b92c6>
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.com470.boleto.app.controller.BoletoControllerTest.testGetAllBoletos(BoletoControllerTest.java:89)
+
